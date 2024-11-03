@@ -47,7 +47,7 @@
         <section class="hero">
             <div class="container hero-container">
             <h1 class="hero-title">Effective Solutions for Your Business </h1>
-            <button type="button" class="hero-btn">Order Service</button>
+            <button type="button" class="hero-btn" data-modal-open>Order Service</button>
         </div>
         </section>
 
@@ -471,7 +471,7 @@
           <button class="subscribe-btn" type="submit">
             Subscribe
             <svg class="icon-send" width="24" height="24">
-              <use href="./images/icons1.svg#icon-iconsend1"></use>
+              <use href="./images/icons1.svg#icon-send1"></use>
             </svg>
           </button>
         </form>
@@ -481,9 +481,9 @@
 
 
 
-<div class="backdrop is-open">
+<div class="backdrop is-open" data-modal>
     <div class="modal">
-      <button class="modal-close-btn" type="button">
+      <button class="modal-close-btn" type="button" data-modal-close>
         <svg class="modal-icon-close" width="8" height="8">
           <use href="./images/icons2.svg#icon-cross"></use>
         </svg>
@@ -565,5 +565,6 @@
       </form>
     </div>
   </div>
+  <script src="./js/modal.js"></script>
 </body>
 </html>

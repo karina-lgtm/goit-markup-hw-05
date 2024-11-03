@@ -523,6 +523,7 @@ margin-right: 120px;}
      gap: 24px;
 }
 
+
 .subscribe-title { 
     font-weight: 500;
     font-size: 16px;
@@ -554,10 +555,27 @@ margin-right: 120px;}
         color: #FFFFFF;
         cursor: pointer;
     }
+    .footer-input {
+        width: 264px; 
+        height: 40px; 
+        border: 1px solid #ffffff; 
+        background-color: transparent; 
+        font-size: 12px;
+        line-height: 2;
+        letter-spacing: 0.04em; 
+        padding-left: 16px; 
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 4px;
+        color: #ffffff;
+    }
+    .E-mail {
+        color: #ffffff;
+    }
     .icon-send {
-        fill: #FFFFFF;
+        fill: #030202;
          margin-left: 16px;
     }
+   
 
 
 
